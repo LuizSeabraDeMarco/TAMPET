@@ -86,71 +86,22 @@ header h1{
 
 main > h1{
     font-family: var(--font_titulo);
-    font-weight: normal;
-    text-align: center;
-    margin: 20px;
-    font-size: 35px;
-    margin-top:70px;
-    color: black;
+    font-weight: bold;
+    padding:20px;
+    font-size: 27px;
+    margin-top: 49px;
 }
 
-main > h2{
-    font-family: var(--font_titulo);
-    font-weight: lighter;
-    text-align: center;
-    color: #6c9f79;
-    margin: 30px;
-    margin-top: 20px;
-    font-size: 20px;
+main > p{
+    width: 90vw;
+    font-size: 15px;
+    margin: auto;
 }
 
 main > img{
-    width: 100vw;
-    margin-top: 30px;
-}
-
-main > h3{
-    font-family: var(--font_titulo);
-    font-weight: lighter;
-    text-align: center;
-    margin: 30px;
-    margin-top: 20px;
-    font-size: 30px;
-}
-
-main > img#exame{
-    width: 90vw;
+    width: 95vw;
     margin: auto;
     display: block;
     text-align: center;
     margin-top: 30px;
-}
-main > p{
-    width: 90vw;
-    margin: auto;
-    font-size: 15px;
-}
-
-li{
-    width: 80vw;
-    margin: auto;
-    font-size: 15px;
-}
-
-footer{
-    background-color: var(--color1)
-}
-
-footer > p{
-    width: 95vw;
-    font-size: 15px;
-    padding: 10px;
-    color: white;
-}
-
-footer > p:nth-child(2){
-    width: 95vw;
-    font-size: 15px;
-    color: white;
-    padding-bottom: 20px;
 }
