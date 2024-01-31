@@ -26,19 +26,7 @@ header{
     height: 7vh;
     border-bottom: rgba(128, 128, 128, 0.349) solid 1px;
 }
-header > div > a{
-    display: grid;
-    color: rgba(0, 0, 0, 0.884);
-    border: rgba(39, 39, 19, 0.349) solid 1px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    height: 3vh;
-    width: 50vw;
-    text-align: center;
-    justify-content: center;
-    margin: 10px;
-    text-decoration: none;
-}
+
 header > div{
     margin: auto;
     text-align: center;
@@ -84,24 +72,40 @@ header h1{
 
 }
 
+header > h2{
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    width: 100vw;
+}
+
+header  > h2 > span{
+    font-size: 13px;
+}
+
+#reg{
+    display: none;
+}
+
+header > div > a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    padding: 20px;
+}
+
 main > h1{
     font-family: var(--font_titulo);
-    font-weight: bold;
-    padding:20px;
-    font-size: 27px;
-    margin-top: 49px;
-}
-
-main > p{
-    width: 90vw;
-    font-size: 15px;
-    margin: auto;
-}
-
-main > img{
-    width: 95vw;
-    margin: auto;
-    display: block;
+    font-weight: normal;
     text-align: center;
-    margin-top: 30px;
+    margin: 20px;
+    font-size: 26px;
+    margin-top: 80px;
+}
+main > p{
+    padding: 5px
+}
+main > ul{
+   padding: 30px;
+   padding-top: 10px;
 }

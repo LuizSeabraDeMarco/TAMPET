@@ -18,3 +18,7 @@ function voltar() {
 function link_ponto_c(){
     window.location.href = "Pont_Coleta/regiao.html";
 }
+
+function link_aceita(){
+    window.location.href = "Aceitamos.html";
+}

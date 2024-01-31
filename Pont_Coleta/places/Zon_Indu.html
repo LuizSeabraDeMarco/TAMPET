@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+<title>Zona Norte</title>
+<link rel="stylesheet" href="regiao.css">
+</head>
+<body>
+    <header id="header">
+        <a href="../../menu.html"><span class="material-symbols-outlined" id="close">
+            menu
+        </span></a>
+        <h1>Tampet</h1>
+        <a href="../regiao.html" style="color: black;"><span class="material-symbols-outlined" id="home">
+            close
+        </span></a>
+        <h2 onClick='clickRegiao()'>Outras Regiões<span class="material-symbols-outlined">
+            arrow_drop_down
+            </span></h2>
+            <div id="reg">
+                <a href="Zon_Lest.html" ><h3>Zona Leste</h3></a>
+                <a href="Zon_Norte.html"><h3>Zona Norte</h3></a>
+                <a href="Zon_Sul.html"><h3>Zona Sul</h3></a>
+                <a href="Zon_Oest.html"><h3>Zona Oeste</h3></a>
+                <a href="Zon_Centro.html"><h3>Zona Centro</h3></a>
+                <a href="Zon_Munici.html"><h3>Municipios</h3></a>
+            </div>
+    </header>
+    <main>
+        <h1>Zona Insdustrial</h1>
+        <p>Os principais pontos de coleta da região norte fica localisado :</p>
+        <ul>
+            <li>Rua Luiz.L</li>
+            <li>Rua Já Cinto</li>
+            <li>Rua Popó</li>
+            <li>Rua Luiz.L</li>
+            <li>Rua Já Cinto</li>
+            <li>Rua Popó</li>
+            <li>Rua Luiz.L</li>
+            <li>Rua Já Cinto</li>
+            <li>Rua Popó</li>
+            <li>Rua Luiz.L</li>
+            <li>Rua Já Cinto</li>
+            <li>Rua Popó</li>
+        </ul>
+    </main>
+    <script>
+        function clickRegiao() {
+            var filtro = document.getElementById("reg");
+            if (filtro.style.display == "inline"){
+                filtro.style.display = "none";
+            }else{
+                filtro.style.display = "inline";
+            }
+            }
+    </script>
+</body>
+</html>
