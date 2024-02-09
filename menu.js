@@ -22,3 +22,6 @@ function link_ponto_c(){
 function link_aceita(){
     window.location.href = "Aceitamos.html";
 }
+function link_contato(){
+    window.location.href = "contato.html";
+}

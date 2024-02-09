@@ -84,40 +84,28 @@ header h1{
 
 }
 
-main{
-    background-color: var(--color5)
-}
-
 main > h1{
-    font-family: var(--font_titulo);
-    color: white;
     text-align: center;
-    margin: 10px;
-    margin-top: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: var(--color5);
 }
 
 main > p{
-    color: black;
-    font-size: 1.3em;
-    width: 90vw;
-    margin: auto;
-    text-align: center;
+    padding: 14px;
+    padding-left: 5px;
 }
 
-main > img{
-    width: 90vw;
-    margin: auto;
-    display: block;
-    text-align: center;
-    
-}
-
-main > h2{
-    padding: 10px;
+main > a{
     color: white;
+    background-color: var(--color2);
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 30vw;
 }
-
-main > h3{
-    padding: 10px;
-    margin-bottom: 10px;
-}   
