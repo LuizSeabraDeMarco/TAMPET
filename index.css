@@ -236,7 +236,11 @@ legend{
     color: darkgray;
     text-align: center;
 }
-
+@media  screen and (min-width: 300px) and (max-width: 320px) {
+    header{
+        height: 13vh;
+    }
+}
 @media  screen and (min-width: 375px) and (max-width: 425px) {
     header span{
         padding: 30px;
