@@ -184,7 +184,6 @@ div#mais_dados1{
 
 footer{
     background-color: black;
-    height: 77vh;
     width: 100vw;
     color: white;
 }
@@ -236,7 +235,6 @@ footer > a{
 legend{
     color: darkgray;
     text-align: center;
-    height: 5vh;
 }
 
 @media  screen and (min-width: 375px) and (max-width: 425px) {
