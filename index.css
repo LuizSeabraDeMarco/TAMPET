@@ -21,7 +21,7 @@ header{
     width: 100vw;
     display: inline-block;
     text-align: center;
-    height: 7vh;
+    height: 16vh;
     border-bottom: rgba(128, 128, 128, 0.349) solid 2px;
 }
 header > div > a{
@@ -45,7 +45,7 @@ header > div{
 }
 header span{
     display: inline-block;
-    padding: 18px;
+    padding: 13px;
     padding-top: 0;
 }
 

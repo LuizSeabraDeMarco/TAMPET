@@ -22,7 +22,7 @@ header{
     display: inline-block;
     text-align: center;
     margin: auto;
-    height: 7vh;
+    height: 16vh;
     border-bottom: rgba(128, 128, 128, 0.349) solid 1px;
 }
 header > div > a{
