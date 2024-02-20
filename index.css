@@ -235,6 +235,7 @@ footer > a{
 legend{
     color: darkgray;
     text-align: center;
+    font-size: 13.5px;
 }
 @media  screen and (min-width: 300px) and (max-width: 320px) {
     header{
