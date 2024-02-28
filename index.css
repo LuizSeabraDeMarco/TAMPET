@@ -237,6 +237,15 @@ legend{
     text-align: center;
     font-size: 13.5px;
 }
+@media  screen and (min-width: 200px) and (max-width: 300px) {
+    header{
+        height: 13vh;
+    }
+    header h1{
+        font-size: 30px;
+        padding: 10px;
+    }
+}
 @media  screen and (min-width: 300px) and (max-width: 320px) {
     header{
         height: 13vh;
