@@ -91,25 +91,13 @@ main > span{
     margin-left: 80px;
 }
 
-@media  screen and (min-width: 200px) and (max-width: 300px) {
+@media  screen and (min-width: 200px) and (max-width: 425px) {
     header{
         height: 13vh;
     }
     header h1{
         font-size: 25px;
-        padding: 5px;
-        margin: 0px;
-    }
-}
-@media  screen and (min-width: 300px) and (max-width: 320px) {
-    header{
-        height: 13vh;
-    }
-}
-@media  screen and (min-width: 375px) and (max-width: 425px) {
-    header span{
-        padding: 30px;
-        padding-top: 0;
+        padding: 3px;
     }
 }
 @media  screen and (min-width: 425px) and (max-width: 768px) {

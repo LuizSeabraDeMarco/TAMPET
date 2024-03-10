@@ -6,4 +6,3 @@ function link_insta(){
 function voltar() {
     history.back();
   }
-  
