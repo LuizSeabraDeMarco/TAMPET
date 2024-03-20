@@ -16,7 +16,7 @@ function voltar() {
   
 
 function link_ponto_c(){
-    window.location.href = "Pont_Coleta/regiao.html";
+    window.location.href = "https://www.google.com/maps/d/u/1/viewer?mid=1w23DJLzDFb0tMZMQ2Dl8HUHnXT0dlQY&ll=-22.5246453500042%2C-44.105255283081625&z=13";
 }
 
 function link_aceita(){
