@@ -88,12 +88,12 @@ main > h1{
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
-    color: var(--color5);
+    color: black;
+    font-family: var(--font_titulo);
 }
 
 main > p{
     padding: 14px;
-    padding-left: 5px;
 }
 
 main > a{
