@@ -8,3 +8,7 @@ function link_insta(){
 function voltar() {
     history.back();
   }
+
+function menu(){
+    window.location.href = "menu.html";
+}
