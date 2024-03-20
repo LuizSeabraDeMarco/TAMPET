@@ -1,7 +1,9 @@
 
 function link_insta(){
-    window.location.href = "https://www.instagram.com/tampet_sulfluminense/";
-}
+    const instagramLink = "https://www.instagram.com/tampet_sulfluminense/";
+    window.open(instagramLink, "_blank");
+    }
+
 
 function voltar() {
     history.back();
